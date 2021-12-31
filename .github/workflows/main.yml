@@ -11,8 +11,8 @@ jobs:
       - name: Login to DockerHub
         uses: docker/login-action@v1 
         with:
-          username: secrets.monossir
-          password: secrets.1f567fe8-0304-40e2-88ca-7a82a8ced091
+          username: monossir
+          password: 1f567fe8-0304-40e2-88ca-7a82a8ced091
 
       - name: Build and push
         id: docker_build
